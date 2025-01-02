@@ -1,0 +1,109 @@
+/* Need to run python manage.py collectstatic when changing this file in production */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.seccion-logo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.logo img{
+    width:293px;height:95px;
+    object-fit:contain;
+    object-position:unset
+}
+
+.d-flex{
+    gap:20px;
+  }
+
+.nav-hover-main {
+    border-top: solid;
+    border-top-color: #0ECBE9;
+    padding-top: 5px;
+}
+
+.nav-hover-main:hover {
+    border-top-color: rgb(168, 168, 168);
+}
+
+.nav-hover-secondary {
+    border-top: solid;
+    border-top-color: rgb(209, 209, 209);
+    border-width: thin;
+    padding-top: 5px;
+}
+
+.nav-hover-secondary:hover {
+    border-top-color: rgb(168, 168, 168);
+    border-width: medium;
+}
+
+.titulo {
+    border-top: solid;
+    border-color: #0ECBE9;
+    border-width: 7px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.titulo h1{
+    font-size: 72px;
+    color: #0ECBE9;
+}
+
+.img-closeup{
+    object-fit: cover;
+    max-height: 450px;
+    width: 90%;
+    object-position: 0 50%;
+}
+
+.container-sobre{
+    max-width: 45%;
+}
+
+.no-pad {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.container-info{
+    max-width: 90%;
+    background-color: rgb(248, 248, 248);
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.img-full {
+    width: 100%;
+    object-fit: contain;
+}
+
+.left-pad-10 {
+    padding-left: 10%;
+    padding-right: 0%;
+}
+
+.right-pad-5 {
+    padding-left: 0%;
+    padding-right: 5%;
+}
+
+.footer-text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height:1.79em; 
+    text-align:center; 
+    font-size:14px;
+}
